@@ -43,6 +43,7 @@ body h1 {
 
 .card h1 {
     text-align: center;
+    color: #75391c;
 }
 
 .card .row {
@@ -58,4 +59,39 @@ body h1 {
 
 .row {
     margin: -5px;
+}
+
+#title {
+    margin-top: 30px;
+}
+
+.projects {
+    display: inline-block;
+    margin-top: 10px;
+    align-items: center;
+    width: 50%;
+}
+
+.project {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #e1d1a7;
+    color: #75391c;
+    padding: 1pc;
+}
+
+.project h1 {
+    color: #75391c;
+}
+
+.project p {
+    text-align: start;
+    display: inline-block;
+}
+
+.project video {
+    display: inline-block;
+    height: 600px;
+    width: 100%;
 }
